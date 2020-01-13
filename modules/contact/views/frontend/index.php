@@ -72,6 +72,6 @@ $fbLink = Config::get('social.fb');
 </div>
 <div id="contact-map" class="contact-map"></div>
 
-<?php $this->registerJsFile('//maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyATghjihc0vjXzgd8l2sPYrzqQJONVaOss', [
+<?php $this->registerJsFile('//maps.googleapis.com/maps/api/js?callback=initMap', [
     'depends' => 'app\assets\AppAsset'
 ]) ?>
