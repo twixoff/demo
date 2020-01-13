@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.031" height="20.031" viewBox="0 0 20.031 20.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="search" class="cls-1" d="M743.754,59.578l-4.808-4.808a8.413,8.413,0,1,0-1.179,1.18l4.808,4.8A0.833,0.833,0,1,0,743.754,59.578Zm-11.326-3.4a6.753,6.753,0,1,1,6.755-6.751A6.759,6.759,0,0,1,732.428,56.179Z" transform="translate(-724 -41)"/>
+</svg>

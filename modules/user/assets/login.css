@@ -1,0 +1,88 @@
+/*-------------- Login page --------------------------------------------------*/
+.login-page {
+    font-size: 13px;
+    padding: 60px 20px 60px 20px;
+    border-color: #37474F;
+    background-color: #37474F;
+}
+
+.login-page .login-form {
+    width: 320px;
+    margin: 0 auto 20px auto;
+}
+
+.login-page .login-form .icon-object {
+    width: 72px;
+    height: 72px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    color: #FF7043;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #FF7043
+}
+
+.login-page .login-form .icon-object .fa {
+    margin-left: 2px;
+}
+
+.login-page .login-form h5 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    letter-spacing: -0.015em;
+}
+
+.login-page .login-form h5 small {
+    margin-top: 3px;
+    font-size: 13px;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .login-page .login-form {
+        width: 100%;
+    }
+}
+
+.has-feedback-left .form-control {
+    padding-right: 12px;
+    padding-left: 36px;
+}
+
+.has-feedback-left .form-control-feedback {
+    right: auto;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .login-options,
+    .login-options .text-right {
+        text-align: center;
+    }
+}
+
+.content-divider {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.content-divider > span {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.content-divider > span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    z-index: -1;
+}

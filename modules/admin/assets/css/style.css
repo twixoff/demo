@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'DINPro-Regular';
+    src: url('../font/DINPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINPro-Regular.otf')  format('opentype'),
+         url('../font/DINPro-Regular.woff') format('woff'),
+         url('../font/DINPro-Regular.ttf')  format('truetype'),
+         url('../font/DINPro-Regular.svg#DINPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('../font/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINPro-Medium.otf')  format('opentype'),
+         url('../font/DINPro-Medium.woff') format('woff'),
+         url('../font/DINPro-Medium.ttf')  format('truetype'),
+         url('../font/DINPro-Medium.svg#DINPro-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'DINPro-Light';
+    src: url('../font/DINPro-Light.eot');
+    src: url('../font/DINPro-Light.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINPro-Light.woff') format('woff'),
+         url('../font/DINPro-Light.ttf') format('truetype'),
+         url('../font/DINPro-Light.svg#DINPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('../font/DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/DINPro-Bold.otf')  format('opentype'),
+         url('../font/DINPro-Bold.woff') format('woff'),
+         url('../font/DINPro-Bold.ttf')  format('truetype'),
+         url('../font/DINPro-Bold.svg#DINPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*----------------------------------------------------------------------------*/
+html,
+body {
+    /*height: 100%;*/
+    font-family: 'DINPro-Regular';
+    background: #ccc;
+}
+
+.wrap {
+    margin-bottom: 30px;
+}
+
+b,
+strong {
+    font-family: 'DINPro-Bold';
+    font-weight: normal;
+}
+
+a,
+a:hover {
+    color: #70a3b6;
+}
+
+.menu-left {
+    /*padding-top: 20px;*/
+}
+
+.content {
+    padding: 20px 15px;
+    background: #eee;
+}
+
+
+
+/*-------------- Left menu ---------------------------------------------------*/
+.left-side > .list-group {
+    margin-left: -10px;
+    margin-right: -15px;
+    margin-bottom: 1rem;
+}
+
+.left-side .list-group-item {
+    padding: 0.5rem 1rem
+}
+
+.left-side .list-group-item:not(.active):hover,
+.left-side .level-2 .list-group-item:not(.active):hover,
+.left-side .level-3 .list-group-item:not(.active):hover,
+.left-side .level-4 .list-group-item:not(.active):hover {
+    background: #eee;
+}
+
+.left-side .fas.pull-right {
+    margin-top: 3px;
+}
+
+.left-side .fas.pull-right:hover,
+.left-side .fas.pull-right:active,
+.left-side .fas.pull-right:focus {
+    text-decoration: none;
+}
+
+.left-side .fas.pull-right[aria-expanded='true']:before {
+    content: "\f0d7";
+}
+
+.left-side .list-group.level-2,
+.left-side .list-group.level-3,
+.left-side .list-group.level-4 {
+    margin-bottom: -1px;
+}
+
+.left-side .list-group.level-2 .list-group-item {
+    padding-left: 1.5rem;
+    background: #fafafa;
+}
+
+.left-side .list-group.level-3 .list-group-item {
+    padding-left: 2rem;
+    background: #eceff1;
+}
+
+.left-side .list-group.level-4 .list-group-item {
+    padding-left: 2.5rem;
+    background: #cfd8dc;
+}
+
+.left-side .list-group.menu-third-level .list-group-item {
+    padding-left: 2rem;
+    background: #fafafa;
+}
+
+.left-side .list-group.level-2 .list-group-item:first-child,
+.left-side .list-group.level-3 .list-group-item:first-child,
+.left-side .list-group.level-4 .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.left-side .list-group.level-2 .list-group-item:last-child,
+.left-side .list-group.level-3 .list-group-item:last-child,
+.left-side .list-group.level-4 .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item.list-hidden {
+    background: #f5f5f5;
+}
+
+.list-group-item.list-hidden a {
+    color: #9e9e9e;
+}
+
+/*.list-group-item .fas.pull-right {*/
+    /*margin-top: .3em;*/
+/*}*/
+
+.list-group-item .fa.pull-left {
+    margin: 2px 3px 5px 0;
+}
+
+
+/*-------------- Structure ---------------------------------------------------*/
+.arrow-bottom-rotate {
+    transform: rotate(90deg) scaleY(-1);
+}
+
+
+/*----------------------------------------------------------------------------*/
+.grid-view thead {
+    color: #ddd;
+    background: #444;
+}
+
+.grid-view td.actions,
+.grid-view td:last-child {
+    text-align: center;
+}
+
+.grid-view table > tbody > tr.not-published {
+    background-color: beige;
+}
+
+.grid-view .pagination {
+    margin: 0;
+}
+
+
+/*-------------- Gallery -----------------------------------------------------*/
+.gallery-widget .photo-cover {
+    width: 100%;
+    /*height: 175px;*/
+    margin-bottom: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gallery-widget .photo-cover:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.gallery-widget .btn-group .btn-move {
+    cursor: move;
+}
+
+
+/*-------------- Infoblock map -----------------------------------------------*/
+.map-area {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+.copy-to-clipboard {
+    cursor: pointer;
+}
+
+.info-block-gallery-form .thumbnail {
+    position: relative;
+}
+
+.info-block-gallery-form .thumbnail .btn-group-vertical {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+
+/*-------------- Bootstrap ---------------------------------------------------*/
+.dropright .dropdown-menu {
+    right: 0;
+    left: auto;
+}
